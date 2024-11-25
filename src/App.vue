@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import MyHeader from './components/MyHeader.vue'
+import MyHeader from './views/MyHeader.vue'
 
 export default {
     name: 'App',
