@@ -4,7 +4,7 @@
             <template #icon><IconLogo class="header__logo__icon" /></template>
             Логотип
         </MyButton>
-        <MyButton>Каталог</MyButton>
+        <MyButton class="header__btn">Каталог</MyButton>
         <MyInput class="header__search" placeholder="Поиск по 100 000 товаров">
             <template v-slot:icon><IconSearch /></template>
         </MyInput>
@@ -79,6 +79,23 @@ export default {
                     color: $primary;
                 }
             }
+        }
+    }
+
+    @media screen and (max-width: 780px) {
+        .header__logo, .header__btn {
+            display: none;
+
+        }
+    }
+
+    @media screen and (max-width: 1040px) {
+        .header__links {
+            display: none;
+        }
+
+        .header__search {
+            margin: 0;
         }
     }
 </style>

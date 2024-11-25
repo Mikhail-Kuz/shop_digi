@@ -51,7 +51,25 @@ export default {
     .catalog {
         width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 24px;
+    }
+
+    @media screen and (min-width: 1040px) {
+        .catalog {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media screen and (min-width: 1250px) {
+        .catalog {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+
+    @media screen and (min-width: 1920px) {
+        .catalog {
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
     }
 </style>

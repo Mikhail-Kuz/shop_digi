@@ -40,4 +40,14 @@ export default {
 .app-content {
     display: flex;
 }
+
+@media screen and (max-width: 1040px) {
+    .app-content > .filter {
+        display: none;
+    }
+
+    #app {
+        padding: 0 20px;
+    }
+}
 </style>
