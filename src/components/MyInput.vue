@@ -16,7 +16,7 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
 @import '../styles/colors';
 
 .input {
@@ -29,6 +29,7 @@ export default {
     padding: 12px 16px;
 
     & > input {
+        width: 100%;
         outline: 0;
         border: none;
         font-size: 16px;

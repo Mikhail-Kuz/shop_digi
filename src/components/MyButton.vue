@@ -19,20 +19,22 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
+@import '../styles/colors';
+
 .button {
     padding: 12px 24px;
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    border: 1px solid #73AFF4;
+    border: 1px solid $primary;
     border-radius: 8px;
     cursor: pointer;
     font-size: 14px;
     font-weight: 500;
 
     &:hover {
-        background-color: #73AFF433;
+        background-color: transparentize($primary, .8);
     }
 
     &.ghost {

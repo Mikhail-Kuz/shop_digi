@@ -33,13 +33,12 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
     @import '../styles/colors';
 
     .header {
         display: flex;
         align-items: strech;
-        margin: 0 100px;
         margin-bottom: 24px;
         padding: 12px 0;
 
