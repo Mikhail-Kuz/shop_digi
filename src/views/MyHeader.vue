@@ -19,8 +19,8 @@
 <script>
 import IconLogo from '../assets/icons/IconLogo.vue'
 import IconSearch from '../assets/icons/IconSearch.vue'
-import MyButton from './MyButton.vue'
-import MyInput from './MyInput.vue'
+import MyButton from '../components/MyButton.vue'
+import MyInput from '../components/MyInput.vue'
 
 export default {
     name: 'MyHeader',
